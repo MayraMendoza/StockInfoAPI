@@ -49,5 +49,6 @@ public class StockController {
         return restTemplate.getForObject(alphaAdvantageEndpoint + symbol + "&interval=5min&outputsize" +
                 "=full&apikey=" + apikey, Object.class);
 
+
     }
 }
